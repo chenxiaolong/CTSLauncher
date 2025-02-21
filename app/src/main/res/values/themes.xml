@@ -1,0 +1,16 @@
+<!--
+    SPDX-FileCopyrightText: 2025 Andrew Gunnerson
+    SPDX-License-Identifier: GPL-3.0-only
+-->
+<resources>
+    <style name="Theme.CTSLauncher.Transparent" parent="android:Theme.Translucent.NoTitleBar">
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">@bool/light_status_bar</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+</resources>
