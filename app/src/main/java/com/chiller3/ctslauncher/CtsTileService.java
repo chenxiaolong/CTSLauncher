@@ -10,7 +10,6 @@ import android.app.PendingIntent;
 import android.os.Build;
 import android.service.quicksettings.TileService;
 
-/** Quick settings tile for toggling the torch status. The last selected brightness is used. */
 public class CtsTileService extends TileService {
     private static final long SYNC_DELAY_MS = 500L;
 
