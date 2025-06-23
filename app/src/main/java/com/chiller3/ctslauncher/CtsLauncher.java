@@ -123,6 +123,8 @@ public final class CtsLauncher {
         //
         // [1] https://android.googlesource.com/platform/frameworks/base/+/b26321f6af2acb4d30730002e43d99a3e5c5a3e6%5E%21/
 
+        final var switchResult = AssistantSwitcher.switchAssistant(context);
+
         try {
             final var service = getService(VOICE_INTERACTION_MANAGER_SERVICE);
 
@@ -151,6 +153,11 @@ public final class CtsLauncher {
         } catch (Exception e) {
             Log.e(TAG, "Failed to launch CTS", e);
             Toast.makeText(context, e.getLocalizedMessage(), Toast.LENGTH_LONG).show();
+        } finally {
+            if (switchResult.changed()) {
+                context.startService(AssistantRestoreService.createIntent(
+                        context, switchResult.component()));
+            }
         }
     }
 }

@@ -7,7 +7,7 @@
 
 CTSLauncher is a shortcut and quick settings tile for launching the contextual search activity in the Google app. It is useful for Android OS's that do not have the system-level contextual search integration with the Google app.
 
-CTSLauncher does not require any permissions.
+CTSLauncher does not require any permissions by default.
 
 **NOTE**: The Google app determines whether Circle to Search or Google Assistant is launched (or even doing nothing), depending on the Android version and device model. CTSLauncher does **not** make Circle to Search work on devices where it is not supported.
 
@@ -18,6 +18,20 @@ CTSLauncher does not require any permissions.
 2. Make sure the Google app is set as the default assistant app in Android's Settings -> Apps -> Default apps -> Digital assistant app.
 
 3. That's it! When CTSLauncher is opened, either via the app icon or quick settings tile, it will trigger the Google app's contextual search feature.
+
+## Auto-switching assistant app
+
+If the system has a different default assistant app set, CTSLauncher can automatically switch the assistant app to the Google app, launch CTS, and then restore the setting. This requires granting the `WRITE_SECURE_SETTINGS` permission via `adb`:
+
+```bash
+adb shell pm grant com.chiller3.ctslauncher android.permission.WRITE_SECURE_SETTINGS
+```
+
+To revoke the permissions, run:
+
+```bash
+adb shell pm revoke com.chiller3.ctslauncher android.permission.WRITE_SECURE_SETTINGS
+```
 
 ## Verifying digital signatures
 
