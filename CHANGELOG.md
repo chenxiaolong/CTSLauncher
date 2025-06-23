@@ -7,7 +7,7 @@
     to update the actual links at the bottom of the file.
 -->
 
-### Unreleased
+### Version 1.2
 
 * Target Java 21 ([PR #3])
 * Add support for automatically switching the default assistant app to the Google app when launching CTS ([Issue #4], [PR #5])
