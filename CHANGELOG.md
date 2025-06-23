@@ -10,6 +10,7 @@
 ### Unreleased
 
 * Target Java 21 ([PR #3])
+* Add support for automatically switching the default assistant app to the Google app when launching CTS ([Issue #4], [PR #5])
 
 ### Version 1.1
 
@@ -20,5 +21,7 @@
 * Initial release
 
 <!-- Do not manually edit the lines below. Use `./gradlew changelogUpdateLinks` to regenerate. -->
+[Issue #4]: https://github.com/chenxiaolong/CTSLauncher/issues/4
 [PR #2]: https://github.com/chenxiaolong/CTSLauncher/pull/2
 [PR #3]: https://github.com/chenxiaolong/CTSLauncher/pull/3
+[PR #5]: https://github.com/chenxiaolong/CTSLauncher/pull/5
