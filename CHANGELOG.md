@@ -7,6 +7,10 @@
     to update the actual links at the bottom of the file.
 -->
 
+### Unreleased
+
+* Remove dependency info block from APK ([PR #6])
+
 ### Version 1.2
 
 * Target Java 21 ([PR #3])
@@ -25,3 +29,4 @@
 [PR #2]: https://github.com/chenxiaolong/CTSLauncher/pull/2
 [PR #3]: https://github.com/chenxiaolong/CTSLauncher/pull/3
 [PR #5]: https://github.com/chenxiaolong/CTSLauncher/pull/5
+[PR #6]: https://github.com/chenxiaolong/CTSLauncher/pull/6
