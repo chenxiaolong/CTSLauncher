@@ -302,10 +302,10 @@ tasks.register("changelogUpdateLinks") {
 }
 
 tasks.register("changelogPreRelease") {
-    doLast {
-        val version = project.property("releaseVersion")
+    val version = project.findProperty("releaseVersion")
 
-        updateChangelog(version.toString(), true)
+    doLast {
+        updateChangelog(version!!.toString(), true)
     }
 }
 
