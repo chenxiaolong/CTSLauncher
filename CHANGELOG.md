@@ -7,7 +7,7 @@
     to update the actual links at the bottom of the file.
 -->
 
-### Unreleased
+### Version 1.4
 
 * Increase quick settings tile delay from 500ms to 600ms ([PR #8])
   * Android 16 QPR1 takes more time to remove the whole-screen blur effect after the notification panel is dismissed
