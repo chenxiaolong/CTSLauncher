@@ -7,6 +7,11 @@
     to update the actual links at the bottom of the file.
 -->
 
+### Unreleased
+
+* Increase quick settings tile delay from 500ms to 600ms ([PR #8])
+  * Android 16 QPR1 takes more time to remove the whole-screen blur effect after the notification panel is dismissed
+
 ### Version 1.3
 
 * Remove dependency info block from APK ([PR #6])
@@ -32,3 +37,4 @@
 [PR #5]: https://github.com/chenxiaolong/CTSLauncher/pull/5
 [PR #6]: https://github.com/chenxiaolong/CTSLauncher/pull/6
 [PR #7]: https://github.com/chenxiaolong/CTSLauncher/pull/7
+[PR #8]: https://github.com/chenxiaolong/CTSLauncher/pull/8
