@@ -11,7 +11,7 @@ import android.os.Build;
 import android.service.quicksettings.TileService;
 
 public class CtsTileService extends TileService {
-    private static final long SYNC_DELAY_MS = 500L;
+    private static final long SYNC_DELAY_MS = 600L;
 
     @SuppressLint("StartActivityAndCollapseDeprecated")
     @Override
