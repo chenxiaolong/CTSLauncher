@@ -1,5 +1,5 @@
 /*
- * SPDX-FileCopyrightText: 2022-2025 Andrew Gunnerson
+ * SPDX-FileCopyrightText: 2022-2026 Andrew Gunnerson
  * SPDX-License-Identifier: GPL-3.0-only
  */
 
@@ -120,13 +120,6 @@ android {
 
         base.archivesName.set("CTSLauncher-$versionName")
     }
-    sourceSets {
-        getByName("main") {
-            assets {
-                srcDir(archiveDir)
-            }
-        }
-    }
     signingConfigs {
         create("release") {
             val keystore = System.getenv("RELEASE_KEYSTORE")
@@ -159,6 +152,14 @@ android {
     }
 }
 
+androidComponents.onVariants { variant ->
+    variant.sources.assets!!.addGeneratedSourceDirectory(archive) {
+        project.objects.directoryProperty().apply {
+            set(archiveDir)
+        }
+    }
+}
+
 val archive = tasks.register("archive") {
     inputs.property("gitVersionTriple.third", gitVersionTriple.third)
 
@@ -183,10 +184,8 @@ val archive = tasks.register("archive") {
     }
 }
 
-android.applicationVariants.all {
-    preBuildProvider.configure {
-        dependsOn(archive)
-    }
+androidComponents.onVariants { variant ->
+    variant.lifecycleTasks.registerPreBuild(archive)
 }
 
 data class LinkRef(val type: String, val number: Int) : Comparable<LinkRef> {
