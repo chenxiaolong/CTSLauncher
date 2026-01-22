@@ -7,6 +7,10 @@
     to update the actual links at the bottom of the file.
 -->
 
+### Unreleased
+
+* Update AGP to 9.0.0 ([PR #10])
+
 ### Version 1.4
 
 * Increase quick settings tile delay from 500ms to 600ms ([PR #8])
@@ -40,3 +44,4 @@
 [PR #7]: https://github.com/chenxiaolong/CTSLauncher/pull/7
 [PR #8]: https://github.com/chenxiaolong/CTSLauncher/pull/8
 [PR #9]: https://github.com/chenxiaolong/CTSLauncher/pull/9
+[PR #10]: https://github.com/chenxiaolong/CTSLauncher/pull/10
