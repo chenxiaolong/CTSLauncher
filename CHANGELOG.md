@@ -10,6 +10,8 @@
 ### Unreleased
 
 * Update AGP to 9.0.0 ([PR #10])
+* Reenable default proguard optimizations ([PR #11])
+  * For folks who want to decode stack traces from log files, the mapping files are now included with the official releases in `mappings.tar.zst`
 
 ### Version 1.4
 
@@ -45,3 +47,4 @@
 [PR #8]: https://github.com/chenxiaolong/CTSLauncher/pull/8
 [PR #9]: https://github.com/chenxiaolong/CTSLauncher/pull/9
 [PR #10]: https://github.com/chenxiaolong/CTSLauncher/pull/10
+[PR #11]: https://github.com/chenxiaolong/CTSLauncher/pull/11
