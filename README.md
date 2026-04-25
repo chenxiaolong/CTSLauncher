@@ -2,9 +2,6 @@
 
 <img src="app/images/icon.svg" alt="app icon" width="72" />
 
-![latest release badge](https://img.shields.io/github/v/release/chenxiaolong/CTSLauncher?sort=semver)
-![license badge](https://img.shields.io/github/license/chenxiaolong/CTSLauncher)
-
 CTSLauncher is a shortcut and quick settings tile for launching the contextual search activity in the Google app. It is useful for Android OS's that do not have the system-level contextual search integration with the Google app.
 
 CTSLauncher does not require any permissions by default.
@@ -79,4 +76,4 @@ and then build the release APK:
 
 ## License
 
-CTSLauncher is licensed under GPLv3. Please see [`LICENSE`](./LICENSE) for the full license text.
+CTSLauncher is licensed under GPL-3.0-only. Please see [`LICENSE`](./LICENSE) for the full license text.
