@@ -10,7 +10,7 @@
 ### Unreleased
 
 * Allow setting the app as the default assistant ([PR #13])
-* Update AGP to 9.0.0 ([PR #10])
+* Update dependencies ([PR #10], [PR #14])
 * Reenable default proguard optimizations ([PR #11], [PR #12])
   * For folks who want to decode stack traces from log files, the mapping files are now included with the official releases in `mappings.tar.zst`
 
@@ -51,3 +51,4 @@
 [PR #11]: https://github.com/chenxiaolong/CTSLauncher/pull/11
 [PR #12]: https://github.com/chenxiaolong/CTSLauncher/pull/12
 [PR #13]: https://github.com/chenxiaolong/CTSLauncher/pull/13
+[PR #14]: https://github.com/chenxiaolong/CTSLauncher/pull/14
