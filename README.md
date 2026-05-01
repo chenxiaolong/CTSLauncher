@@ -30,6 +30,8 @@ To revoke the permissions, run:
 adb shell pm revoke com.chiller3.ctslauncher android.permission.WRITE_SECURE_SETTINGS
 ```
 
+CTSLauncher itself can also be set as the default assistant app, allowing for another easy way to trigger Circle to Search.
+
 ## Verifying digital signatures
 
 First, use `apksigner` to print the digests of the APK signing certificate:
