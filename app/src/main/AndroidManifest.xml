@@ -52,7 +52,6 @@
 
         <service
             android:name=".CtsTileService"
-            android:enabled="true"
             android:exported="true"
             android:icon="@drawable/ic_notifications"
             android:label="@string/app_name"
