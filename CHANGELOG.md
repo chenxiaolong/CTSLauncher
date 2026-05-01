@@ -7,7 +7,7 @@
     to update the actual links at the bottom of the file.
 -->
 
-### Unreleased
+### Version 1.5
 
 * Allow setting the app as the default assistant ([PR #13])
 * Update dependencies ([PR #10], [PR #14])
