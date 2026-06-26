@@ -7,6 +7,10 @@
     to update the actual links at the bottom of the file.
 -->
 
+### Unreleased
+
+* Update target API version to API 37 (Android 17) ([PR #15])
+
 ### Version 1.5
 
 * Allow setting the app as the default assistant ([PR #13])
@@ -52,3 +56,4 @@
 [PR #12]: https://github.com/chenxiaolong/CTSLauncher/pull/12
 [PR #13]: https://github.com/chenxiaolong/CTSLauncher/pull/13
 [PR #14]: https://github.com/chenxiaolong/CTSLauncher/pull/14
+[PR #15]: https://github.com/chenxiaolong/CTSLauncher/pull/15
