@@ -7,6 +7,10 @@
     to update the actual links at the bottom of the file.
 -->
 
+### Unreleased
+
+* Update dependencies ([PR #18])
+
 ### Version 1.6
 
 * Update target API version to API 37 (Android 17) ([PR #15])
@@ -57,3 +61,4 @@
 [PR #13]: https://github.com/chenxiaolong/CTSLauncher/pull/13
 [PR #14]: https://github.com/chenxiaolong/CTSLauncher/pull/14
 [PR #15]: https://github.com/chenxiaolong/CTSLauncher/pull/15
+[PR #18]: https://github.com/chenxiaolong/CTSLauncher/pull/18
