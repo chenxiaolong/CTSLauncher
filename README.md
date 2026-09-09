@@ -1,3 +1,5 @@
+**2026-09-09 update**: This project is discontinued because I never found myself actually using CTS. The latest release is safe to keep using indefinitely since CTSLauncher has 0 dependencies (nothing to update) and 0 required permissions.
+
 # CTSLauncher
 
 <img src="app/images/icon.svg" alt="app icon" width="72" />
